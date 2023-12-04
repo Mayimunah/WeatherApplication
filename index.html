@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ZenithClim</title>
+</head>
+<body>
+    <div class="container">
+        <div id="introduction">
+            <h2>Welcome to ZenithClim!</h2>
+            <p>Get real-time weather information and extended forecasts for any location. We use the OpenWeatherMap API to provide accurate and up-to-date weather data.</p>
+            <p> <strong> Why OpenWeatherMap?</strong> It's a reliable and widely-used weather API that offers a variety of weather data and forecast information.</p>
+        </div>
+
+        <div id="userAgreement">
+            <h3>User Agreement</h3>
+            <p>By using this website, you agree that we are using a public API (OpenWeatherMap) to fetch weather data. The use of this API is subject to OpenWeatherMap's terms and conditions.</p>
+            <p>Before using our services, please review OpenWeatherMap's <a href="https://openweathermap.org/terms">Terms of Service</a> and <a href="https://openweathermap.org/privacy-policy">Privacy Policy</a>.</p>
+        </div>
+
+
+        <h1>ZenithClim</h1>
+        <label for="locationInput">Enter Location:</label>
+        <input type="text" id="locationInput" placeholder="City, Country">
+        <button onclick="getWeather()">Get Weather</button>
+        <div> </div>
+        <div id="weatherInfo"></div>
+        <div id="weatherIcon"></div>
+<br></div>
+        <div id="extendedForecast">
+            <h2>Extended Forecast</h2>
+            <div id="forecastData"></div>
+        </div>
+    <footer>
+        Mayimunah &copy 2023 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+       <br> For more info; Contact: 0672100333 or 4163113@myuwc.ac.za
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
